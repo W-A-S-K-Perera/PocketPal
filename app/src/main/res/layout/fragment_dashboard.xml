@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background_text"
+
+    tools:context=".Dashboard">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/dashboard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnBudget"
+            android:layout_width="150dp"
+            android:layout_height="173dp"
+            android:layout_marginBottom="312dp"
+            android:backgroundTint="@color/btnColor"
+            android:drawableTop="@drawable/baseline_format_list_bulleted_24"
+            android:text="MY BUDEGT"
+            android:textAlignment="gravity"
+            android:textColor="@color/background_main"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            app:cornerRadius="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.13"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/btnBill"
+            android:layout_width="145dp"
+            android:layout_height="173dp"
+            android:layout_marginBottom="312dp"
+            android:backgroundTint="@color/btnColor"
+            android:drawableTop="@drawable/baseline_event_note_24"
+            android:text="MY BILLS"
+            android:textAlignment="gravity"
+            android:textColor="@color/background_main"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            app:cornerRadius="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.815"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <Button
+            android:id="@+id/btnCredit"
+            android:layout_width="150dp"
+            android:layout_height="173dp"
+            android:backgroundTint="@color/btnColor"
+            android:drawableTop="@drawable/baseline_account_balance_wallet_24"
+            android:text="MY CREDITS"
+            android:textColor="@color/background_main"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:cornerRadius="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.13"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.799" />
+
+        <Button
+            android:id="@+id/btnGoals"
+            android:layout_width="150dp"
+            android:layout_height="173dp"
+            android:backgroundTint="@color/btnColor"
+            android:drawableTop="@drawable/baseline_moving_24"
+            android:text="MY GOALS"
+            android:textAlignment="gravity"
+            android:textColor="@color/background_main"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            app:cornerRadius="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.812"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.799" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="279dp"
+            android:layout_height="234dp"
+            android:layout_marginTop="36dp"
+            android:src="@drawable/whatsapp_image_2023_05_03_at_22_57_17"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</FrameLayout>

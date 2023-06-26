@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/updatebill"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_text"
+    android:orientation="vertical"
+    tools:context=".UpdateBills">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/border"
+        android:backgroundTint="@color/background_main"
+        android:text="@string/tvUpdate"
+        android:textAlignment="center"
+        android:textColor="@color/background_text"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/uAmount"
+        android:textAlignment="center"
+        android:textColor="@color/background_main"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/uAmount"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/textBox"
+        android:backgroundTint="@color/textBox"
+        android:drawableEnd="@drawable/baseline_edit_24"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/edtTxtAmount"
+        android:textAlignment="center"
+        android:textColor="@color/background_main"
+        android:textSize="24sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/uButton"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/btnColor"
+        android:text="@string/btnUupdate"
+        android:textColor="@color/background_text"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:cornerRadius="18dp" />
+</LinearLayout>

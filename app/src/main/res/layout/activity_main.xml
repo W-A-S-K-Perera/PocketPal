@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_text"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/text_view_layout_height"
+        android:layout_marginLeft="@dimen/text_view_margin_left"
+        android:layout_marginTop="@dimen/text_view_marginTop"
+        android:layout_marginRight="@dimen/text_view_marginRight"
+        android:layout_marginBottom="@dimen/text_view_margin_Bottom"
+        android:background="@drawable/border"
+        android:backgroundTint="@color/background_main"
+        android:text="@string/tvTitle"
+        android:textAlignment="center"
+        android:textColor="@color/background_text"
+        android:textSize="@dimen/text_view_text_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvUpcoming"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tvUpcoming_layout_height"
+        android:layout_marginLeft="@dimen/tvUpcoming_marginleft"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="@dimen/tvUpcoming_marginright"
+        android:text="@string/tvUpcoming"
+        android:textAlignment="center"
+        android:textColor="@color/background_main"
+        android:textSize="@dimen/tvUpcoming_textsize"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/textViewTotalAmountUpcoming"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edtUpcoming_layout_height"
+        android:layout_marginLeft="@dimen/edtUpcoming_marginleft"
+        android:layout_marginRight="@dimen/edtUpcoming_marginright"
+        android:layout_marginBottom="@dimen/edtUpcoming_margin_bottom"
+        android:background="@color/textBox"
+        android:backgroundTint="@color/textBox"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/edtUpcoming"
+        android:textAlignment="center"
+        android:textColor="@color/background_main"
+        android:textSize="@dimen/edtUpcoming_textsize"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/tvPaid"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tvPaid_layout_height"
+        android:layout_marginLeft="@dimen/tvPaid_marginleft"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="@dimen/tvPaid_marginright"
+        android:text="@string/tvPaid"
+        android:textAlignment="center"
+        android:textColor="@color/background_main"
+        android:textSize="@dimen/tvPaid_textsize"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/textViewTotalAmountPaid"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edtPaid_layout_height"
+        android:layout_marginLeft="@dimen/edtPaid_marginleft"
+        android:layout_marginRight="@dimen/edtPaid_marginright"
+        android:layout_marginBottom="@dimen/edtPaid_margin_bottom"
+        android:background="@color/textBox"
+        android:backgroundTint="@color/textBox"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/edtPaid"
+        android:textAlignment="center"
+        android:textColor="@color/background_main"
+        android:textSize="@dimen/edtPaid_textsize"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/btn_margin_left"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="@dimen/btn_margin_right"
+        android:layout_marginBottom="@dimen/btn_margin_bottom"
+        android:backgroundTint="@color/btnColor"
+        android:drawableLeft="@drawable/baseline_add_circle_24"
+        android:text="@string/btnAdd"
+        android:textColor="@color/background_text"
+        android:textSize="@dimen/btn_text_size"
+        android:textStyle="bold"
+        app:cornerRadius="@dimen/btn_corner_radius" />
+
+    <Button
+        android:id="@+id/btnUpcoming"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/btn_margin_left"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="@dimen/btn_margin_right"
+        android:layout_marginBottom="@dimen/btn_margin_bottom"
+        android:backgroundTint="@color/btnColor"
+        android:drawableLeft="@drawable/baseline_pageview_24"
+        android:text="@string/btnUpcoming"
+        android:textColor="@color/background_text"
+        android:textSize="@dimen/btn_text_size"
+        android:textStyle="bold"
+        app:cornerRadius="@dimen/btn_corner_radius" />
+
+    <Button
+        android:id="@+id/btnPaid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/btn_margin_left"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="@dimen/btn_margin_right"
+        android:backgroundTint="@color/btnColor"
+        android:drawableLeft="@drawable/baseline_pageview_24"
+        android:text="@string/btnPaid"
+        android:textColor="@color/background_text"
+        android:textSize="@dimen/btn_text_size"
+        android:textStyle="bold"
+        app:cornerRadius="@dimen/btn_corner_radius" />
+</LinearLayout>

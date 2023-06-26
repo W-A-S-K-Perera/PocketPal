@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "515960139812",
+    "project_id": "pocketpal-d5b6d",
+    "storage_bucket": "pocketpal-d5b6d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:515960139812:android:854fd68053f2c5e17e28b1",
+        "android_client_info": {
+          "package_name": "com.example.pocketpal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "515960139812-o8ur0tgjmunju0ljtao7ts3qc6drojh6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjyB7Q0oHHURIyLDFnat26gjR6GwyWcjA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "515960139812-o8ur0tgjmunju0ljtao7ts3qc6drojh6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

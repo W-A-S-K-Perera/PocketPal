@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/add_bills_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_text"
+    android:orientation="vertical"
+    tools:context=".AddBills">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/text_view_layout_height"
+        android:layout_marginLeft="@dimen/text_view_margin_left"
+        android:layout_marginTop="@dimen/text_view_marginTop"
+        android:layout_marginRight="@dimen/text_view_marginRight"
+        android:layout_marginBottom="@dimen/text_view_margin_Bottom"
+        android:background="@drawable/border"
+        android:backgroundTint="@color/background_main"
+        android:text="@string/txtAdd"
+        android:textAlignment="center"
+        android:textColor="@color/background_text"
+        android:textSize="@dimen/text_view_text_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tv_textview_layoutheight"
+        android:layout_marginLeft="@dimen/tv_textview_margin_left"
+        android:layout_marginTop="@dimen/tv_textview_margintop"
+        android:layout_marginRight="@dimen/tv_textview_marginright"
+        android:text="@string/txtAmount"
+        android:textAlignment="center"
+        android:textColor="@color/background_main"
+        android:textSize="@dimen/tv_textview_textSize"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etAmount"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edt_layout_height"
+        android:layout_marginLeft="@dimen/edt_marginleft"
+        android:layout_marginRight="@dimen/edt_marginright"
+        android:background="@color/textBox"
+        android:backgroundTint="@color/textBox"
+        android:ems="10"
+        android:hint="Enter Amount"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="@color/background_main"
+        android:textColorHint="@color/background_main"
+        android:textSize="@dimen/edt_textsize"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tv_textview_layoutheight"
+        android:layout_marginLeft="@dimen/tv_textview_margin_left"
+        android:layout_marginTop="@dimen/tv_textview_margintop"
+        android:layout_marginRight="@dimen/tv_textview_marginright"
+        android:text="@string/tvCategory"
+        android:textAlignment="center"
+        android:textColor="@color/background_main"
+        android:textSize="@dimen/tv_textview_textSize"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/selectCategory"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edt_layout_height"
+        android:layout_marginLeft="@dimen/edt_marginleft"
+        android:layout_marginRight="@dimen/edtPaid_marginright"
+        android:background="@color/textBox"
+        android:backgroundTint="@color/textBox"
+        android:drawableRight="@drawable/baseline_navigate_next_24"
+        android:hint="Select Category"
+        android:textAlignment="center"
+        android:textColor="@color/background_main"
+        android:textColorHint="@color/background_main"
+        android:textSize="@dimen/edtPaid_textsize"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tv_textview_layoutheight"
+        android:layout_marginLeft="@dimen/tv_textview_margin_left"
+        android:layout_marginTop="@dimen/tv_textview_margintop"
+        android:layout_marginRight="@dimen/tv_textview_marginright"
+        android:text="Month"
+        android:textAlignment="center"
+        android:textColor="@color/background_main"
+        android:textSize="@dimen/tv_textview_textSize"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/etMonth"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edt_layout_height"
+        android:layout_marginLeft="@dimen/edt_marginleft"
+        android:layout_marginRight="@dimen/edt_marginright"
+        android:layout_marginBottom="@dimen/edt_margin_bottom"
+        android:background="@color/textBox"
+        android:backgroundTint="@color/textBox"
+        android:ems="10"
+        android:hint="Month"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="@color/background_main"
+        android:textColorHint="@color/background_main"
+        android:textSize="@dimen/edt_textsize"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tv_textview_layoutheight"
+        android:layout_marginLeft="@dimen/tv_textview_margin_left"
+        android:layout_marginTop="@dimen/tv_textview_margintop"
+        android:layout_marginRight="@dimen/text_view_marginRight"
+        android:text="@string/txtDue"
+        android:textAlignment="center"
+        android:textColor="@color/background_main"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/dueDateText"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edt_layout_height"
+        android:layout_marginLeft="@dimen/edt_marginleft"
+        android:layout_marginRight="@dimen/edt_marginright"
+        android:layout_marginBottom="@dimen/edt_margin_bottom"
+        android:background="@color/textBox"
+        android:backgroundTint="@color/textBox"
+        android:drawableRight="@drawable/baseline_calendar_month_24"
+        android:ems="10"
+        android:hint="Select Due Date"
+        android:inputType="date"
+        android:textAlignment="center"
+        android:textColor="@color/background_main"
+        android:textColorHint="@color/background_main"
+        android:textSize="@dimen/edt_textsize"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/btnSaveBill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/btn_margin_left"
+        android:layout_marginTop="@dimen/btn_marging_top"
+        android:layout_marginRight="@dimen/btn_margin_right"
+        android:backgroundTint="@color/btnColor"
+        android:text="@string/btn_Add"
+        android:textColor="@color/background_text"
+        android:textSize="@dimen/btn_text_size"
+        android:textStyle="bold"
+        app:cornerRadius="18dp" />
+
+</LinearLayout>

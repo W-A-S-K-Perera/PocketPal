@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="BtnMyBudget_MarginStart" />
+    <dimen name="BtnMyBudget_MarginTop" />
+    <dimen name="ButtonDrawable_iconPadding" />
+    <dimen name="Heading_Text_Size" />
+    <dimen name="ButtonCorner_Radius" />
+    <dimen name="NewsUpdate_TextSize" />
+    <dimen name="ImageLogo_LayoutWidth" />
+    <dimen name="ImageLogo_LayoutHeight" />
+    <dimen name="BtnSeeMoreUpdate_LayoutWidth" />
+    <dimen name="BtnSeeMoreUpdate_LayoutHeight" />
+    <dimen name="BtnMyCredit_LayoutWidth" />
+</resources>

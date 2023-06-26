@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="bottom_sheet" type="id" />
+    <item name="category_radio_group" type="id" />
+    <item name="category1_radio_button" type="id" />
+    <item name="category2_radio_button" type="id" />
+    <item name="category3_radio_button" type="id" />
+    <item name="ok_button" type="id" />
+    <item name="billRecyclerView" type="id" />
+</resources>
